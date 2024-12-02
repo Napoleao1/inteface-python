@@ -32,7 +32,7 @@ campo_usuario.pack(pady=10)
 label_senha = ctk.CTkLabel(app,text='Senha:')
 label_senha.pack(pady=10)
 #Entry
-campo_senha = ctk.CTkEntry(app,placeholder_text='Digite Sua Senha')
+campo_senha = ctk.CTkEntry(app,placeholder_text='Digite Sua Senha', show='*')
 campo_senha.pack(pady=10)
 #Button
 campo_entrar = ctk.CTkButton(app,text='Entrar', command=validar_login)
